@@ -1,4 +1,0 @@
-Contact: mailto:info@intercontact.com.ua
-Preferred-Languages: uk, en
-Canonical: https://intercontact.com.ua/.well-known/security.txt
-Expires: 2027-12-31T23:59:59Z

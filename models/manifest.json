@@ -110,6 +110,16 @@
     0
    ],
    "yOffset": 0
+  },
+  "bulker": {
+   "file": "bulker.glb",
+   "length": 180,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
   }
  },
  "credits": [
@@ -199,6 +209,15 @@
    "author": "atrodler",
    "authorUrl": "https://sketchfab.com/atrodler",
    "url": "https://sketchfab.com/models/4b27adcf92f644bdabf8ecc6c5bef399",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Bulk Carrier",
+   "author": "medialog",
+   "authorUrl": "https://sketchfab.com/medialog",
+   "url": "https://sketchfab.com/3d-models/bulk-carrier-93c076900f004102b78dfac989efae1d",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "modified": true

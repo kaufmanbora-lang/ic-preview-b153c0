@@ -1,0 +1,207 @@
+{
+ "models": {
+  "ship": {
+   "file": "ship.glb",
+   "length": 160,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "spreader": {
+   "file": "spreader.glb",
+   "length": 12.2,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "plane": {
+   "file": "plane.glb",
+   "length": 88.4,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "tractor": {
+   "file": "tractor.glb",
+   "length": 6.1,
+   "rotation": [
+    0,
+    90,
+    0
+   ],
+   "yOffset": 0,
+   "wheelNodes": [
+    "Object_3",
+    "Object_3.001",
+    "Object_3.002"
+   ],
+   "frontWheels": [
+    "Object_3.001",
+    "Object_3.002"
+   ]
+  },
+  "containers": {
+   "file": "containers.glb",
+   "length": null,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "native": true
+  },
+  "billboard": {
+   "file": "billboard.glb",
+   "length": null,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "gantry": {
+   "file": "gantry.glb",
+   "length": null,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "checkpoint": {
+   "file": "checkpoint.glb",
+   "length": null,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "armNode": "Gate Fence"
+  },
+  "trafficlight": {
+   "file": "trafficlight.glb",
+   "length": null,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  },
+  "tree": {
+   "file": "tree.glb",
+   "length": 7.2,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0
+  }
+ },
+ "credits": [
+  {
+   "name": "Container Ship",
+   "author": "RM02",
+   "authorUrl": "https://sketchfab.com/RM02",
+   "url": "https://sketchfab.com/3d-models/container-ship-aaa41cca946b4a08bc08cf692b7757be",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "KALMAR DRU450",
+   "author": "KJLOYH",
+   "authorUrl": "https://sketchfab.com/KJLOYH",
+   "url": "https://sketchfab.com/3d-models/kalmar-dru450-b79d6c2a49b040ffb09f0d3c27ce9d30",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Antonov AN-225",
+   "author": "KOG_THORNS (@ioai25312)",
+   "authorUrl": "https://sketchfab.com/ioai25312",
+   "url": "https://sketchfab.com/3d-models/antonov-an-225-6157ff15e5f945cb8cb9701d9f6e13be",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "MAN TGX 2010 V8 – High-Detail Semi-Truck",
+   "author": "DevPoly3D",
+   "authorUrl": "https://sketchfab.com/DevPoly3D",
+   "url": "https://sketchfab.com/models/34ce748d9a4b4de7b035cfe5cb97f5d1",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Container 4 Colors",
+   "author": "Shorty_Digitan",
+   "authorUrl": "https://sketchfab.com/Shorty_Digitan",
+   "url": "https://sketchfab.com/models/2c45fa8aae51464aa34b8a74c91bdf07",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Metal Billboard Advertising Single Sided",
+   "author": "Jotrain",
+   "authorUrl": "https://sketchfab.com/Jotrain",
+   "url": "https://sketchfab.com/models/33c164cf9e4346d1b48eb0c49cb2643f",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Metal road billboard single sided",
+   "author": "Frice",
+   "authorUrl": "https://sketchfab.com/Frice",
+   "url": "https://sketchfab.com/models/6534d76c592d4a0da374d3861e2d506a",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Checkpoint Gate",
+   "author": "Anshinowara2",
+   "authorUrl": "https://sketchfab.com/Anshinowara2",
+   "url": "https://sketchfab.com/models/123c732b016442409ae9f38fde853144",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Traffic light",
+   "author": "Ronata-Venya",
+   "authorUrl": "https://sketchfab.com/Ronata-Venya",
+   "url": "https://sketchfab.com/models/8a9e4ed8ab794b10835fb01c3714f6dc",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Maple tree",
+   "author": "atrodler",
+   "authorUrl": "https://sketchfab.com/atrodler",
+   "url": "https://sketchfab.com/models/4b27adcf92f644bdabf8ecc6c5bef399",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  }
+ ]
+}

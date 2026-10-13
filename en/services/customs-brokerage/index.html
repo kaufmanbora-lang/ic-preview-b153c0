@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-9NN9EBCjYuTIbR/hoEitzDmKC/855R4+8A+tKhthdSA=' 'wasm-unsafe-eval' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data: https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Customs Brokerage — INTERCONTACT</title>
 <meta name="description" content="Import, export and transit clearance — documents, HS codes and declarations.">
@@ -21,9 +23,9 @@
 <link rel="preload" href="../../../assets/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../../assets/fonts/intertight-latin.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="../../../assets/css/main-OAV5PEKN.css">
-<script>(function(d){d.classList.add('js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('reduced');if(sessionStorage.getItem('ic-nav')){d.classList.add('is-entering');sessionStorage.removeItem('ic-nav')}}catch(e){}})(document.documentElement)</script>
-<script type="module" src="../../../assets/js/main-6FF3WM7G.js"></script>
+<link rel="stylesheet" href="../../../assets/css/main-GXHXRZ36.css">
+<script>(function(d){if(self!==top&&!/^(localhost|127.0.0.1)$/.test(location.hostname)){try{top.location.replace(location.href)}catch(e){d.style.visibility='hidden'}}d.classList.add('js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('reduced');if(sessionStorage.getItem('ic-nav')){d.classList.add('is-entering');sessionStorage.removeItem('ic-nav')}}catch(e){}})(document.documentElement)</script>
+<script type="module" src="../../../assets/js/main-5BMAAUAO.js"></script>
 
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"INTERCONTACT","alternateName":"INTERCONTACT","slogan":"We do not sell freight — we engineer logistics."}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"},{"@type":"ListItem","position":2,"name":"Services"},{"@type":"ListItem","position":3,"name":"Customs Brokerage"}]}</script>
@@ -163,7 +165,7 @@
       <p class="lead" data-reveal>The more details, the more precise the quote. But even a short request is a start.</p>
       
     </div>
-    <form class="qf" id="quote" action="/api/request" method="post" novalidate data-form="quote" data-msg-ok="Thank you! Your request has been received — we will contact you shortly." data-msg-fail="The request could not be sent. Please try again a little later." data-msg-captcha="Please confirm you are not a robot and send again." data-msg-rate="Too many requests in a short time. Please try again in a few minutes." data-msg-req="Please fill in this field" data-msg-email="Check the email" data-msg-phone="Check the phone number" data-msg-contact="Provide a phone or an email">
+    <form class="qf" id="quote" action="/api/request" method="post" novalidate data-form="quote" data-msg-ok="Thank you! Your request has been received — we will contact you shortly." data-msg-fail="The request could not be sent. Please try again a little later." data-msg-captcha="Please confirm you are not a robot and send again." data-msg-rate="Too many requests in a short time. Please try again in a few minutes." data-msg-req="Please fill in this field" data-msg-email="Check the email" data-msg-phone="Check the phone number" data-msg-contact="Provide a phone or an email" data-msg-number="Enter a number from {min} to {max}" data-msg-integer="A whole number from {min} to {max}" data-msg-short="Too short: at least {min} characters" data-msg-long="No more than {max} characters" data-msg-name="Letters, spaces, apostrophes or hyphens only" data-msg-date="Pick a date from today to {max}">
   <div class="qf__head">
     <h2 class="qf__title">Quote request</h2>
     <ol class="qf__prog" aria-hidden="true"><li class="is-on"><span>1</span>Shipment</li><li class=""><span>2</span>Cargo</li><li class=""><span>3</span>Contacts</li></ol>
@@ -178,21 +180,27 @@
       <label class="chip"><input type="radio" name="mode" value="sea" ><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 15.5h18l-2.3 4.1a1.6 1.6 0 0 1-1.4.9H6.7a1.6 1.6 0 0 1-1.4-.9L3 15.5Z"/><path d="M6 15.5V12h3.6v3.5M9.6 15.5V9.5h3.8v6M13.4 15.5V11.5H17v4M17 15.5V8.5h1.8"/><path d="M2.5 22.5c1.5 0 1.5-.8 3-.8s1.5.8 3 .8 1.5-.8 3-.8 1.5.8 3 .8 1.5-.8 3-.8 1.5.8 3 .8" opacity=".55"/></svg>Sea</span></label><label class="chip"><input type="radio" name="mode" value="air" ><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10.2 20.5 12 15l-6.5 2.3-1.5-1.4 6.8-5.2V5.2a1.7 1.7 0 0 1 3.4 0v5.5l6.8 5.2-1.5 1.4L13 15l1.8 5.5-1.1 1-1.7-1.6-1.7 1.6Z"/></svg>Air</span></label><label class="chip"><input type="radio" name="mode" value="rail" ><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="14" rx="3"/><path d="M5 10.5h14M9 14h.01M15 14h.01M8 21l2-4M16 21l-2-4M9.5 6h5"/></svg>Rail</span></label><label class="chip"><input type="radio" name="mode" value="truck" ><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 6.5h11.5v9.5H2zM13.5 9.5h4.2l3.3 3.6v2.9h-7.5"/><circle cx="6" cy="17.5" r="1.9"/><circle cx="17.5" cy="17.5" r="1.9"/></svg>Road</span></label><label class="chip"><input type="radio" name="mode" value="multi" ><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>Multimodal</span></label><label class="chip"><input type="radio" name="mode" value="other" checked><span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2.8 8.5 4.4v9.6L12 21.2l-8.5-4.4V7.2Z"/><path d="m3.6 7.2 8.4 4.5 8.4-4.5M12 11.7v9.5M7.8 5l8.4 4.4"/></svg>Other / not sure</span></label>
     </div>
     <div class="fld-row">
-      <label class="fld "><span class="fld__l">From <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="from" placeholder="City, port or country" required  ><span class="fld__err" aria-live="polite"></span></label>
-      <label class="fld "><span class="fld__l">To <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="to" placeholder="City, port or country" required  ><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">From <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="from" placeholder="City, port or country" required  maxlength="80" ><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">To <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="to" placeholder="City, port or country" required  maxlength="80" ><span class="fld__err" aria-live="polite"></span></label>
     </div>
   </fieldset>
   <fieldset class="qf__step" data-step="1">
     <legend class="qf__legend">Cargo</legend>
-    <label class="fld"><span class="fld__l">Cargo description <i aria-hidden="true">*</i></span><textarea class="fld__i" name="cargo" rows="3" placeholder="What we move: goods, packaging, specifics" required></textarea><span class="fld__err" aria-live="polite"></span></label>
-    <div class="fld-row fld-row--3">
-      <label class="fld "><span class="fld__l">Weight, kg</span><input class="fld__i" type="text" name="weight"    inputmode="decimal"><span class="fld__err" aria-live="polite"></span></label>
-      <label class="fld "><span class="fld__l">Volume, m³</span><input class="fld__i" type="text" name="volume"    inputmode="decimal"><span class="fld__err" aria-live="polite"></span></label>
-      <label class="fld "><span class="fld__l">Cargo ready date</span><input class="fld__i" type="date" name="ready"    ><span class="fld__err" aria-live="polite"></span></label>
+    <label class="fld"><span class="fld__l"><span>Cargo description <i aria-hidden="true">*</i></span><span class="fld__count" aria-hidden="true"><b>0</b> / 1000</span></span><textarea class="fld__i" name="cargo" rows="3" maxlength="1000" placeholder="What we move: goods, packaging, specifics" required></textarea><span class="fld__err" aria-live="polite"></span></label>
+    <p class="qf__sub">Cargo parameters</p>
+    <div class="fld-row fld-row--params">
+      <label class="fld fld--num"><span class="fld__l">Weight</span><span class="fld__box"><input class="fld__i" type="text" name="weight" inputmode="decimal" autocomplete="off" maxlength="12" placeholder="0" data-num aria-describedby="weight-hint"><span class="fld__unit" aria-hidden="true">t</span></span><span class="fld__hint" id="weight-hint">Tonnes, e.g. 18.5</span><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld fld--num"><span class="fld__l">Volume</span><span class="fld__box"><input class="fld__i" type="text" name="volume" inputmode="decimal" autocomplete="off" maxlength="12" placeholder="0" data-num aria-describedby="volume-hint"><span class="fld__unit" aria-hidden="true">m³</span></span><span class="fld__hint" id="volume-hint">Cubic metres, e.g. 33</span><span class="fld__err" aria-live="polite"></span></label>
     </div>
+    <label class="fld fld--date"><span class="fld__l">Cargo ready date</span><input class="fld__i" type="date" name="ready"     ><span class="fld__err" aria-live="polite"></span></label>
     <p class="qf__sub">Container</p>
     <div class="chips chips--sm" role="radiogroup" aria-label="Container">
       <label class="chip"><input type="radio" name="container" value="none" checked><span>Not needed / LCL</span></label><label class="chip"><input type="radio" name="container" value="c20" ><span>20&#39;</span></label><label class="chip"><input type="radio" name="container" value="c40" ><span>40&#39;</span></label><label class="chip"><input type="radio" name="container" value="c40hc" ><span>40&#39; HC</span></label>
+    </div>
+    <div class="fld fld--qty" data-qty hidden>
+      <span class="fld__l" id="qty-l-service">Number of containers</span>
+      <span class="qty"><button class="qty__b" type="button" data-qty-step="-1" aria-label="Fewer">−</button><input class="fld__i" type="text" name="qty" value="1" inputmode="numeric" autocomplete="off" maxlength="3" aria-labelledby="qty-l-service" data-int><button class="qty__b" type="button" data-qty-step="1" aria-label="More">+</button></span>
+      <span class="fld__err" aria-live="polite"></span>
     </div>
     <p class="qf__sub">Additionally</p>
     <div class="chips chips--sm">
@@ -202,14 +210,14 @@
   <fieldset class="qf__step" data-step="2">
     <legend class="qf__legend">Contacts</legend>
     <div class="fld-row">
-      <label class="fld "><span class="fld__l">Name <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="name"  required autocomplete="name" ><span class="fld__err" aria-live="polite"></span></label>
-      <label class="fld "><span class="fld__l">Company</span><input class="fld__i" type="text" name="company"   autocomplete="organization" ><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">Name <i aria-hidden="true">*</i></span><input class="fld__i" type="text" name="name"  required autocomplete="name" maxlength="60" ><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">Company</span><input class="fld__i" type="text" name="company"   autocomplete="organization" maxlength="100" ><span class="fld__err" aria-live="polite"></span></label>
     </div>
     <div class="fld-row">
-      <label class="fld "><span class="fld__l">Phone</span><input class="fld__i" type="tel" name="phone" placeholder="+380"  autocomplete="tel" ><span class="fld__err" aria-live="polite"></span></label>
-      <label class="fld "><span class="fld__l">Email</span><input class="fld__i" type="email" name="email"   autocomplete="email" ><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">Phone</span><input class="fld__i" type="tel" name="phone" placeholder="+380"  autocomplete="tel" maxlength="20" inputmode="tel"><span class="fld__err" aria-live="polite"></span></label>
+      <label class="fld "><span class="fld__l">Email</span><input class="fld__i" type="email" name="email"   autocomplete="email" maxlength="100" ><span class="fld__err" aria-live="polite"></span></label>
     </div>
-    <label class="fld"><span class="fld__l">Comment</span><textarea class="fld__i" name="comment" rows="2"></textarea></label>
+    <label class="fld"><span class="fld__l"><span>Comment</span><span class="fld__count" aria-hidden="true"><b>0</b> / 1000</span></span><textarea class="fld__i" name="comment" rows="2" maxlength="1000"  ></textarea><span class="fld__err" aria-live="polite"></span></label>
     <label class="consent"><input type="checkbox" name="consent" value="1" required><span class="consent__box"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>I agree to the processing of personal data in accordance with the <a href="../../../en/privacy/">privacy policy</a></span></label>
   </fieldset>
   <input type="hidden" name="ts" value="">

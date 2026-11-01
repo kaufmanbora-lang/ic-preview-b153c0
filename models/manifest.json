@@ -8,7 +8,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 1924372
   },
   "spreader": {
    "file": "spreader.glb",
@@ -18,7 +19,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 638956
   },
   "plane": {
    "file": "plane.glb",
@@ -28,7 +30,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 3543620
   },
   "tractor": {
    "file": "tractor.glb",
@@ -47,7 +50,8 @@
    "frontWheels": [
     "Object_3.001",
     "Object_3.002"
-   ]
+   ],
+   "bytes": 1137696
   },
   "containers": {
    "file": "containers.glb",
@@ -58,7 +62,8 @@
     0
    ],
    "yOffset": 0,
-   "native": true
+   "native": true,
+   "bytes": 877864
   },
   "billboard": {
    "file": "billboard.glb",
@@ -68,7 +73,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 117000
   },
   "gantry": {
    "file": "gantry.glb",
@@ -78,7 +84,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 350552
   },
   "checkpoint": {
    "file": "checkpoint.glb",
@@ -89,7 +96,8 @@
     0
    ],
    "yOffset": 0,
-   "armNode": "Gate Fence"
+   "armNode": "Gate Fence",
+   "bytes": 231308
   },
   "trafficlight": {
    "file": "trafficlight.glb",
@@ -99,7 +107,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 187520
   },
   "tree": {
    "file": "tree.glb",
@@ -109,7 +118,8 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 524548
   },
   "bulker": {
    "file": "bulker.glb",
@@ -119,7 +129,63 @@
     0,
     0
    ],
-   "yOffset": 0
+   "yOffset": 0,
+   "bytes": 3509940
+  },
+  "crane": {
+   "file": "crane.glb",
+   "length": 14.4,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "bytes": 466472
+  },
+  "tipper": {
+   "file": "tipper.glb",
+   "length": 8.4,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "bytes": 463132
+  },
+  "forklift": {
+   "file": "forklift.glb",
+   "length": 3.9,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "bytes": 609268
+  },
+  "tug": {
+   "file": "tug.glb",
+   "length": 28,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "bytes": 1266832
+  },
+  "pilot": {
+   "file": "pilot.glb",
+   "length": 16,
+   "rotation": [
+    0,
+    0,
+    0
+   ],
+   "yOffset": 0,
+   "bytes": 754340
   }
  },
  "credits": [
@@ -218,6 +284,51 @@
    "author": "medialog",
    "authorUrl": "https://sketchfab.com/medialog",
    "url": "https://sketchfab.com/3d-models/bulk-carrier-93c076900f004102b78dfac989efae1d",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Harbour crane KPP-10.12.5",
+   "author": "Randonavt",
+   "authorUrl": "https://sketchfab.com/Randonavt",
+   "url": "https://sketchfab.com/3d-models/harbour-crane-kpp-10125-965188af6132410189a2eb1210f9095c",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Dump Truck",
+   "author": "ElectroNick",
+   "authorUrl": "https://sketchfab.com/ElectroNick",
+   "url": "https://sketchfab.com/3d-models/dump-truck-781c616da8f44982a59cb3fc3fa67f98",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Forklift Truck",
+   "author": "louis-muir",
+   "authorUrl": "https://sketchfab.com/louir-muir",
+   "url": "https://sketchfab.com/3d-models/forklift-truck-060f3f8bc7de4e6ca2f348d414702e9d",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Tug Boat",
+   "author": "gogiart",
+   "authorUrl": "https://sketchfab.com/agt14032013",
+   "url": "https://sketchfab.com/3d-models/tug-boat-2260a148c83c41c0b9ffc491f8ee7863",
+   "license": "CC BY 4.0",
+   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+   "modified": true
+  },
+  {
+   "name": "Pilot II",
+   "author": "gogiart",
+   "authorUrl": "https://sketchfab.com/agt14032013",
+   "url": "https://sketchfab.com/3d-models/pilot-ii-6ea031237b6b4382ab362790f8af4e66",
    "license": "CC BY 4.0",
    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
    "modified": true

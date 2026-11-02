@@ -1,5 +1,5 @@
 assets/js/home-6F2CZOPS.js
-assets/js/main-JT42KROI.js
+assets/js/main-QJ2THWID.js
 assets/js/c/bagging-6QSQSH2K.js
 assets/js/c/cargo-T4EUHRBD.js
 assets/js/c/chunk-2A3KEGP6.js
@@ -13,4 +13,4 @@ assets/js/c/GLTFLoader-45F5YBJK.js
 assets/js/c/grain-JCFUZVVV.js
 assets/js/c/meshopt_decoder.module-YF6OABBX.js
 assets/js/c/stage-MW5YQC2G.js
-assets/css/main-IDXSPJLM.css
+assets/css/main-BZRN7AOC.css

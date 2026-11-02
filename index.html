@@ -23,13 +23,13 @@
 <link rel="preload" href="assets/fonts/inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/intertight-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
 
-<link rel="stylesheet" href="assets/css/main-3M3GUVZ6.css">
+<link rel="stylesheet" href="assets/css/main-IDXSPJLM.css">
 <script>(function(d){if(self!==top&&!/^(localhost|127.0.0.1)$/.test(location.hostname)){try{top.location.replace(location.href)}catch(e){d.style.visibility='hidden'}}d.classList.add('js');try{if(matchMedia('(prefers-reduced-motion: reduce)').matches)d.classList.add('reduced');if(sessionStorage.getItem('ic-nav')){d.classList.add('is-entering');sessionStorage.removeItem('ic-nav')}}catch(e){}addEventListener('load',function(){setTimeout(function(){if(!window.__ic){d.classList.remove('js','is-entering');d.classList.add('no-stage')}},2500)})})(document.documentElement)</script>
-<script type="module" src="assets/js/main-WTDGVH4P.js"></script>
-<link rel="modulepreload" href="assets/js/home-TLKR7OGA.js">
+<script type="module" src="assets/js/main-JT42KROI.js"></script>
+<link rel="modulepreload" href="assets/js/home-6F2CZOPS.js">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"INTERCONTACT","alternateName":"INTERCONTACT","slogan":"Від причалу — до трюму."}</script>
 </head>
-<body class="pg-home" data-root="" data-lang="ua" data-home="assets/js/home-TLKR7OGA.js">
+<body class="pg-home" data-root="" data-lang="ua" data-home="assets/js/home-6F2CZOPS.js">
 <a class="skip" href="#main">Перейти до змісту</a>
 <div class="curtain" aria-hidden="true"><span class="curtain__word">INTERCONTACT</span></div>
 <header class="hdr" data-theme="dark">
@@ -474,12 +474,13 @@
       <p class="final__text" data-reveal>Залиште заявку — ми зв’яжемося з вами, уточнимо вантаж, порт і терміни та запропонуємо рішення.</p>
       
     </div>
-    <div class="final__form" data-reveal><form class="qq" action="/api/request" method="post" novalidate data-form="quick" data-msg-ok="Дякуємо! Заявку отримано — ми зв&#39;яжемося з вами найближчим часом." data-msg-fail="Не вдалося надіслати заявку. Спробуйте, будь ласка, ще раз трохи пізніше." data-msg-captcha="Підтвердіть, що ви не робот, і надішліть ще раз." data-msg-rate="Забагато заявок за короткий час. Спробуйте, будь ласка, через кілька хвилин." data-msg-req="Заповніть це поле" data-msg-email="Перевірте email" data-msg-phone="Перевірте номер телефону" data-msg-contact="Вкажіть телефон або email" data-msg-number="Введіть число від {min} до {max}" data-msg-integer="Ціле число від {min} до {max}" data-msg-short="Занадто коротко: щонайменше {min} симв." data-msg-long="Не більше {max} символів" data-msg-name="Лише літери, пробіл, апостроф або дефіс" data-msg-date="Оберіть дату від сьогодні до {max}" data-msg-consent="Підтвердіть згоду на обробку даних">
+    <div class="final__form" data-reveal><form class="qq" action="/api/request" method="post" novalidate data-form="quick" data-msg-ok="Дякуємо! Заявку отримано — ми зв&#39;яжемося з вами найближчим часом." data-msg-fail="Не вдалося надіслати заявку. Спробуйте, будь ласка, ще раз трохи пізніше." data-msg-captcha="Підтвердіть, що ви не робот, і надішліть ще раз." data-msg-rate="Забагато заявок за короткий час. Спробуйте, будь ласка, через кілька хвилин." data-msg-req="Заповніть це поле" data-msg-choice="Оберіть варіант зі списку" data-msg-email="Перевірте email" data-msg-phone="Перевірте номер телефону" data-msg-contact="Вкажіть телефон або email" data-msg-number="Введіть число від {min} до {max}" data-msg-integer="Ціле число від {min} до {max}" data-msg-short="Занадто коротко: щонайменше {min} симв." data-msg-long="Не більше {max} символів" data-msg-name="Лише літери, пробіл, апостроф або дефіс" data-msg-date="Оберіть дату від сьогодні до {max}" data-msg-consent="Підтвердіть згоду на обробку даних">
   <div class="hp" aria-hidden="true"><label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
   <input type="hidden" name="lang" value="ua"><input type="hidden" name="form" value="quick"><input type="hidden" name="page" value="/">
   <label class="fld fld--dark"><span class="fld__l">Ваше ім&#39;я <i aria-hidden="true">*</i></span><input class="fld__i" name="name" autocomplete="name" maxlength="60" required><span class="fld__err" aria-live="polite"></span></label>
   <label class="fld fld--dark"><span class="fld__l">Телефон або email <i aria-hidden="true">*</i></span><input class="fld__i" name="contact" autocomplete="tel" maxlength="100" required><span class="fld__err" aria-live="polite"></span></label>
-  <label class="fld fld--dark fld--wide"><span class="fld__l">Який вантаж і в якому порту?</span><input class="fld__i" name="cargo" maxlength="200"><span class="fld__err" aria-live="polite"></span></label>
+  <label class="fld fld--pick fld--dark"><span class="fld__l">Порт</span><span class="fld__box"><select class="fld__i" name="from" ><option value="" selected>Оберіть порт</option><option value="chornomorsk">Чорноморськ</option><option value="izmail">Ізмаїл</option></select><svg class="ico fld__chev" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m9.5 6 6 6-6 6"/></svg></span><span class="fld__err" aria-live="polite"></span></label>
+  <label class="fld fld--dark"><span class="fld__l">Який вантаж?</span><input class="fld__i" name="cargo" maxlength="200"><span class="fld__err" aria-live="polite"></span></label>
   <label class="consent consent--dark fld--wide"><input type="checkbox" name="consent" value="1" required><span class="consent__box"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span><span>Погоджуюся з обробкою персональних даних відповідно до <a href="privacy/">політики конфіденційності</a><span class="fld__err" aria-live="polite"></span></span></label>
   <div class="fld--wide"><input type="hidden" name="elapsed" value=""></div>
   <button class="btn btn--accent btn--lg fld--wide" type="submit" data-magnetic><span>Надіслати заявку</span><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>

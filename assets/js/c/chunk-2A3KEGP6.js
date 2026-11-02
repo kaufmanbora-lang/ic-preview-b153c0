@@ -1,0 +1,1 @@
+var h={desktop:{time:.45,max:.5},mobile:{time:.5,max:.27}};function u(o,t,e,{time:i,max:v}){let c=2/i,n=c*e,l=1/(1+n+.48*n*n+.235*n*n*n),p=v*i,m=Math.min(p,Math.max(-p,o.x-t)),f=o.x-m,a=(o.v+c*m)*e;o.v=(o.v-c*a)*l;let x=f+(m+a)*l;return t-o.x>0==x>t&&(x=t,o.v=0),o.x=x,x}export{h as a,u as b};

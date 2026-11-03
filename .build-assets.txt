@@ -1,5 +1,5 @@
 assets/js/home-HB2TX67Y.js
-assets/js/main-Z25Q5YJI.js
+assets/js/main-UYRVNK4M.js
 assets/js/c/bagging-W7DCZPN7.js
 assets/js/c/cargo-4UA3YC2W.js
 assets/js/c/chunk-5RXXG7B7.js

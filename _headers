@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Wb1w0wFypvglb1N01bhdydT3OScXcvfVABtVjeKv4fk=' 'sha256-+mEmjCrW+13Rb8c9VQJ9+4ZrHl7OCWulHxBjm2SuY+k=' 'wasm-unsafe-eval' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data: https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' mailto:; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Wb1w0wFypvglb1N01bhdydT3OScXcvfVABtVjeKv4fk=' 'sha256-+mEmjCrW+13Rb8c9VQJ9+4ZrHl7OCWulHxBjm2SuY+k=' 'wasm-unsafe-eval' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data: https://challenges.cloudflare.com https://formsubmit.co; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://formsubmit.co; frame-ancestors 'none'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY

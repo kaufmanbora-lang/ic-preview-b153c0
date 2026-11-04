@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Wb1w0wFypvglb1N01bhdydT3OScXcvfVABtVjeKv4fk=' 'sha256-+mEmjCrW+13Rb8c9VQJ9+4ZrHl7OCWulHxBjm2SuY+k=' 'wasm-unsafe-eval' https://challenges.cloudflare.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self' blob: data: https://challenges.cloudflare.com https://api.web3forms.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://api.web3forms.com; frame-ancestors 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'sha256-Wb1w0wFypvglb1N01bhdydT3OScXcvfVABtVjeKv4fk=' 'sha256-+mEmjCrW+13Rb8c9VQJ9+4ZrHl7OCWulHxBjm2SuY+k=' 'wasm-unsafe-eval' https://challenges.cloudflare.com https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://www.googletagmanager.com https://*.google-analytics.com; font-src 'self'; connect-src 'self' blob: data: https://challenges.cloudflare.com https://api.web3forms.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://*.google.com; frame-src https://challenges.cloudflare.com; worker-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self' mailto: https://api.web3forms.com; frame-ancestors 'none'; upgrade-insecure-requests
   Strict-Transport-Security: max-age=31536000
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
@@ -15,10 +15,16 @@
   Cache-Control: public, max-age=2592000
 
 /models/*
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 
 /data/*
-  Cache-Control: public, max-age=2592000
+  Cache-Control: public, max-age=86400
 
 /api/*
   Cache-Control: no-store
+
+https://:project.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://:version.:project.pages.dev/*
+  X-Robots-Tag: noindex
